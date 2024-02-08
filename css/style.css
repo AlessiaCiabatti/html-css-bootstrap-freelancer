@@ -1,0 +1,17 @@
+[class^="container"]{
+  background-color: rgba(127, 255, 212, 0.5);
+  border: 1px solid black;
+}
+
+header{
+  height: 90px;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav li a{
+  text-decoration: none;
+}
+
