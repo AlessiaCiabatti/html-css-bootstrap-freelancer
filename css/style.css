@@ -6,6 +6,7 @@
 [class^="col"]{
   background-color: rgba(226, 43, 134, 0.617);
   border: 1px solid black;
+  min-height: 50px;
 }
 
 header{
@@ -20,6 +21,24 @@ nav li a{
   text-decoration: none;
 }
 
+.container_hero{
+  width: 75%;
+  margin: 0 auto;
+}
+
 main .hero{
   height: 490px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .container_hero{
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  main .hero{
+    height: 590px;
+  }
+  
 }
