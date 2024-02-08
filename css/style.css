@@ -21,11 +21,3 @@ nav li a{
   text-decoration: none;
 }
 
-.container_hero{
-  width: 75%;
-  margin: 0 auto;
-}
-
-main .hero{
-  height: 490px;
-}
