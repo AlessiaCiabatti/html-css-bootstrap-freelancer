@@ -3,6 +3,11 @@
   border: 1px solid black;
 }
 
+[class^="col"]{
+  background-color: rgba(226, 43, 134, 0.617);
+  border: 1px solid black;
+}
+
 header{
   height: 90px;
 }
@@ -15,3 +20,6 @@ nav li a{
   text-decoration: none;
 }
 
+main .hero{
+  height: 490px;
+}
