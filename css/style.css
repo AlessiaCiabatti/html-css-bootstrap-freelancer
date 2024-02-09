@@ -1,23 +1,63 @@
-[class^="container"]{
-  background-color: rgba(127, 255, 212, 0.5);
-  border: 1px solid black;
+body{
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
-[class^="col"]{
-  background-color: rgba(226, 43, 134, 0.617);
-  border: 1px solid black;
-  min-height: 50px;
+
+
+img{
+  height: 100%;
 }
 
-header{
-  height: 90px;
+.ac_container{
+  width: 60%;
+  margin: 0 auto;
 }
 
-nav li{
-  list-style: none;
+.my-bg{
+  background-color: #2c3e50;
 }
 
-nav li a{
-  text-decoration: none;
+.hero{
+  padding: 45px 0;
+  background-color: #1abc9c;
 }
 
+hr{
+  width: 50%;
+}
+
+.hero .avatar{
+  height: 260px;
+}
+
+.portfolio h3{
+  color: #333333;
+}
+
+.ac_cards img{
+  width: 100%;
+}
+
+.my-form input,
+.my-form textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+}
+
+.my-form input:focus,
+.my-form textarea:focus{
+  box-shadow: none;
+}
+
+.my_button{
+  background-color: #1abc9c !important;
+  border: none !important;
+  border-radius: 5px;
+}
+
+.my-form input::placeholder,
+.my-form input::placeholder{
+  color: #2b3d4f
+}
